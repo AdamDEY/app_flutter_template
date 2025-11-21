@@ -94,4 +94,4 @@ Models specific to this feature.
 
 - `app_router.dart`: The `GoRouter` configuration, defining all routes and the Bottom Navigation Shell.
 - `routes.dart`: Static string constants for route paths.
-- `app_shell.dart`: The wrapper widget containing the Bottom Navigation Bar.
+- `home_shell.dart`: The wrapper widget containing the Bottom Navigation Bar.
