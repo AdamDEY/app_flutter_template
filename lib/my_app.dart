@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_template/core/theme/app_theme.dart';
 import 'package:flutter_template/router/app_router.dart';
 
 class MyApp extends StatelessWidget {
@@ -14,11 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       // Basic Theme Setup
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        scaffoldBackgroundColor: Colors.white,
-      ),
+      theme: AppTheme.lightTheme,
     );
   }
 }
